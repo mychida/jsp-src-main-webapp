@@ -61,7 +61,7 @@ ul {
       <%--<li><input type="text" name="year" value="${⑧['year']}" /><label for="year">年</label><input type="text" name="month" value="${⑧['month']}" /><label for="month">月</label><input type="text" name="day" value="${⑧['day']}" /><label for="day">日</label></li> --%>
       <li><input type="submit" value="送信" />
       <li><c:out value="${fn:indexOf(dates, '/')}" /> (<fmt:formatDate value="${date}" pattern="E" />)</li>
-      <%-- ???? <li><c:out value="${fn:⑨(dates, '/')}" /> (<fmt:⑩ value="${date}" pattern="E" />)</li> --%>
+      <%-- ???? 何をしようとしている？<li><c:out value="${fn:⑨(dates, '/')}" /> (<fmt:⑩ value="${date}" pattern="E" />)</li> --%>
       <li><c:out value="${event}" /></li>
     </ul>
   </form>

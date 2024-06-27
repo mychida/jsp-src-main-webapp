@@ -8,7 +8,7 @@
     // セッションの破棄
     session.invalidate(); // session.②();
   } else {
-    // GETパラメータから「メッセージ」を取り出す
+    // GETパラメータから「メッセージ」を取り出す。
     message = (String)request.getParameter("message"); //message = (String)request.③("message");
     if (message != null) {
       // 「メッセージ」が送信されていたので、セッションに保存
